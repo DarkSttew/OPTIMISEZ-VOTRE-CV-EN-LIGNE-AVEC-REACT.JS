@@ -38,5 +38,10 @@ Basé sur un tutoriel React pour débutants, ce projet a pour objectifs :
 ##  Ce site web est hébergé sur alwaysdata
 - https://devoircef.alwaysdata.net/
 
-![alt text](image.png)
-![alt text](image-1.png)
+## Validation HTML
+
+![Validation HTML W3C](src/assets/img/Validation-W3C/Validation-HTML.png)
+
+## Validation CSS
+
+![Validation CSS W3C](src/assets/img/Validation-W3C/Validation-CSS.png)
