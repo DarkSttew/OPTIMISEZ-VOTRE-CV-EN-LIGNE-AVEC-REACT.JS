@@ -1,0 +1,7 @@
+.containerBg {
+    background-image: linear-gradient(rgba(0,105,255,0.5), rgba(0,105,255,0.5)), url("../img/contact-bg.jpg");
+}
+
+.contact {
+    background-color: white;
+}   

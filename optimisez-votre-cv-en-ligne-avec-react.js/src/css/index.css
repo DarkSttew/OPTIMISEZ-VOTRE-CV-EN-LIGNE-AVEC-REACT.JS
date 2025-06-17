@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  color: #444;
+  background-color: #EEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+strong {
+  font-weight: 600;
+  color: black;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+.chevronRight {
+  color: #0d6efd;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
+.banner {
+  background-image: url("../assets/img/banner.jpg");
+  height: 300px;
+}
+
+.active-link {
+  color: red;
+}
+
+#buttonTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#buttonTop:hover {
+  background-color: #298eff;
+}
+
+@media (max-width: 768px) {
+  .banner {
+      background-image: url("../assets/img/banner-mobile.jpg");
+      height: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+      background-image: url("../assets/img/banner-tablette.jpg");
+      height: 300px;
+  }
+}
